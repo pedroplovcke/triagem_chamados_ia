@@ -10,7 +10,7 @@ O projeto foi feito integrando **PowerShell, Make.com, Google Gemini AI e Google
 
 O "motor" da automação roda na nuvem através do Make.com. O fluxo tem 3 etapas simples:
 1. Um **Webhook** fica escutando os chamados.
-2. A IA do **Google Gemini** recebe o texto do problema e define a prioridade (Alta, Média, Baixa, etc) e gera um resumo.
+2. A IA do **Google Gemini** recebe o texto do problema e define a prioridade (Alta, Média, Baixa) e gera um resumo.
 3. O módulo do **Google Sheets** salva esses dados em uma nova linha.
 
 ![Fluxo no Make](imagens/fluxo-make.png)
@@ -36,5 +36,5 @@ Em questão de segundos, o Make.com processa os dados, a IA avalia o texto (no e
 
 ---
 
-## 🚀 Próximos Passos (Roadmap)
+## 🚀 Próximos Passos 
 Atualmente o envio é feito via script em PowerShell. O meu próximo passo neste projeto é desenvolver uma aplicação Back-end completa utilizando **Java** para substituir o PowerShell, aplicando meus conhecimentos em programação orientada a objetos e consumo de APIs REST.
